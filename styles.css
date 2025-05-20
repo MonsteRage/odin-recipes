@@ -1,0 +1,16 @@
+.desc{
+    color: red;
+    background: white;
+}
+
+img{
+    height: auto;
+    width: 500px;
+}
+
+.title{
+    font-family: "Times New Roman", serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
