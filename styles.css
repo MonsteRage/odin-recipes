@@ -1,11 +1,40 @@
-.desc{
-    color: red;
-    background: white;
+body{
+    margin: 0;
+}
+
+.home-nav{
+    background-color: rgb(252, 227, 4);
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+    font-family: verdana, Arial;
+}
+
+.home-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.section1{
+    background-color: green;
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section2{
+    display: inline-block;
+    width:90%;
+    
 }
 
 img{
     height: auto;
     width: 500px;
+    display: block;
+    margin: auto;
 }
 
 .title{
@@ -13,4 +42,37 @@ img{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+}
+
+.nav{
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav li{
+    font-family: verdana, Arial;
+    font-size: 25px;
+    color: white;
+    margin: 10px ;
+    display: inline-block;
+    text-align: center;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+li a img{
+    display: block;
+}
+
+li a:hover {
+    color: gray;
+}
+
+.content{
+    width: 70%;
+    margin: 0 auto;
 }
