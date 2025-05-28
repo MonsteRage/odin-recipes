@@ -10,3 +10,5 @@ With the use of CSS, i've learned:
 * box-sizing.
 * specificity of the selector and rule order.
 * all kinds of selector, which is universal, type, class, ID, grouping selector. also chaining and descend combinator.
+
+test
